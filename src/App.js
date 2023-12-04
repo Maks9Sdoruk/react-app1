@@ -1,19 +1,15 @@
-import {VideoList } from './components/VideoList';
+
 import './App.css';
-import {Number} from './components/Text';
+function Mybutton() {
+  return (
+    <button>I'm a button</button>
+  );
+}
 function App() {
   return (
-    <>
-       <h1>Hello.</h1>
-     <VideoList/>
-     <Number/>
-        
-    </>
-    
-          
-  ); }  
-
-
+    <Mybutton/>
+  )
+};
 
 
 
